@@ -18,7 +18,7 @@ const Header = () => {
             >
               <img src={ecell_logo} alt="" />
               <h3>&</h3>
-              <img src={"/learn10x.png"} className="ecellLearn" alt="" />
+              <img src={"/learn10x.png"} alt="" />
             </div>
             <div className="headerPrensent">
               <p
