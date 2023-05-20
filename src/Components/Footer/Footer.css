@@ -1,0 +1,15 @@
+.footerContainer{
+    width: 100%;
+    max-width: 100vw;
+    height: 80px;
+    background: #3f3f41;
+    /* background-color: var/); */
+    text-align: center;
+
+
+}
+
+.footerContainer p{
+    color: #d4cece;
+    padding: 30px;
+}

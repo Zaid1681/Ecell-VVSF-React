@@ -1,0 +1,67 @@
+.contactContainer{
+    /* background-color: ; */
+}
+
+
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* align-items: center; */
+
+}
+
+.colCard{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 30rem;    
+    padding:20px;
+    /* box-shadow: 2px 3px 10px #888888; */
+}
+
+.colCard .logo{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+.colCard:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 20px #888888;
+}
+
+.map {
+  margin: 50px 0 ;
+  text-align: center;
+
+}
+
+.map iframe{
+    height: 400px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width:700px){
+    .contact-row{
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+   
+  }
+@media only screen and (max-width:700px){
+    .gmapFrame{
+        width: 10%;
+    }
+   
+  }
+
+  @media only screen and (max-width:400px){
+    .colCard{
+        width: 25rem;
+     
+    }
+  
+  }

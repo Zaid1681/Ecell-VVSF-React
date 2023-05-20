@@ -1,0 +1,165 @@
+/* .headerContainer>img {
+  height: 100vh;
+  max-height: 100%;
+  width: 100vw;
+
+} */
+
+.bgHeader {
+  /* The image used */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Specify the background image to be used */
+  background-image: url("../../assets//headerBg11.jpg");
+  background-size: cover;
+  z-index: -1;
+  /* Set a specific height */
+  height: 100vh;
+  /* width: 100%; */
+
+  /*  content-center*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.headerEcellLearn .ecellLearn{
+  width: 12%;
+  
+
+}
+
+
+.fgHeader {
+  margin: 0px;
+}
+.headerEcellLearn {
+  display: flex;
+  /* margin-top: 10rem; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:100px;
+  text-align: center;
+  gap: 2rem;
+}
+.headerEcellLearn h3 {
+  display: flex;
+  color: #ffff;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  align-items: center;
+}
+.headerEcellLearn img {
+  width: 8%;
+}
+.headerVvsf{
+  /* text-align: center; */
+}
+.headerVvsf > img {
+  width: 35%;
+  margin: auto;
+  display: flex;
+}
+.headerPrensent {
+  text-align: center;
+  align-items: center;
+}
+.headerPrensent > span {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* Responsive css header */
+@media only screen and (min-width: 1000px) {
+  .fgHeadercontainer{
+    margin-top: -110px;
+  }
+  .headerEcellLearn  img {
+    /* margin-top: -20px; */
+    margin-top: 10px;
+    width: 12%;
+  }
+  .headerPrensent > span {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .headerVvsf > img {
+    width: 32%;
+  }
+  .headerEcellLearn .ecellLearn{
+    /* width: 13%; */
+    
+  
+  }
+  
+}
+@media only screen and (max-width: 1000px) {
+  .fgHeadercontainer{
+    margin-top: -80px;
+  }
+  .headerEcellLearn img {
+    /* margin-top: -20px; */
+    width: 12%;
+  }
+  .headerPrensent > span {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .headerVvsf > img {
+    width: 50%;
+  }
+  
+}
+
+@media only screen and (max-width: 650px) {
+  .headerEcellLearn img {
+    width: 17%;
+  }
+  .headerPrensent > span {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .headerVvsf > img {
+    width: 65%;
+  }
+  
+}
+@media only screen and (max-width: 450px) {
+  .headerEcellLearn .ecellLearn{
+    /* width: 36%; */
+    padding: 10px;
+  }
+  .headerEcellLearn img {
+    width: 19%;
+  }
+  .headerPrensent > span {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .headerVvsf > img {
+    width: 80%;
+  }
+  
+}
+@media only screen and (max-width: 390px) {
+  .headerEcellLearn img {
+    width: 26%;
+  }
+  .headerPrensent > span {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .headerVvsf > img {
+    width: 90%;
+  }
+  
+}
+

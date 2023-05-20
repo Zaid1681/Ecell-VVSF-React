@@ -1,0 +1,18 @@
+.eventsCards{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    color: black;
+    font-size: 15x;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1160px){
+    .eventsCards{
+        flex-direction: column;
+        gap: 15px;
+    }
+   
+  }
